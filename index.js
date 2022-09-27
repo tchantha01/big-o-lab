@@ -282,13 +282,14 @@ function countLettersRoundTwo(str) {
 
 
 // Q: Do these functions have the same space complexity?
-// ANSWER: NO
+// ANSWER: Yes
 
 
 // Q: What is the space complexity of each? 
-// ANSWER - countLetters: O(1)
+// ANSWER - countLetters: O(n)
 // ANSWER - countLettersRoundTwo: O(n)
 
 
 // Q: Explain how you came to your conclusions about the space complexity of each function. 
-// ANSWER: 
+// ANSWER: results depends on the size/length of the string being passed in.
+
